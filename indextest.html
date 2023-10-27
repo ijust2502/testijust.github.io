@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>About Vy</title>
+    <style>
+    /* CSS cho trang giới thiệu */
+    @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+:root{
+	--primary-color: #768f63;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	background: linear-gradient(45deg, #d0f7f7, #e4d0f7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Agbalumo";
+	color: black;
+}
+
+.card{
+	background: #edfffe;
+	width: 300px;
+	height: 550px;
+	border-radius: 10px;
+	text-align: center; 
+}
+
+
+img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-position: center;
+}
+
+.card__img{
+	width: 120px;
+	height: 120px;
+	border: 4px solid var(--primary-color);
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	transform: translateY(25px);
+}
+.card h2{
+	margin-top: 20px;
+}
+
+.card p{
+	color: var(--primary-color);
+}
+
+ul{
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0em;
+}
+
+ul > li {
+	background-color: #fff;
+	border-radius: 1em;
+	padding: 0.5;
+	margin: 1em 0;
+	align-items: center;
+	display: flex;
+	display: inline-block;
+}
+
+ul > li > a{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	gap: 0em;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.card button{
+	width=150px;
+	height=40px;
+	border: 1px solid var (--primary-color--);
+	background: transperant;
+	color: black;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.card button:hover{
+	background: #768f63;
+	font-family: "Agbalumo";
+}
+
+.card img:hover{
+	width: 100%;
+	height: 100%;
+	border-radius: unset;
+	transform: unset;
+	border: none;
+}
+
+h6{
+	background-color: #768f63;
+	border-radius: 1em;
+	display: flex;
+}
+</style/
+
+    <link rel="stylesheet" href="/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="card">
+    <div class="card__img">
+        <img src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/395293253_1988902938153807_3087715270162776356_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=f5kxErjUGrAAX933Tz-&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfDuwMi3Z-dXZoCv9nB570a59AXxVTZYExsb5K9rlej2AA&oe=65404A7F" alt="Picture of Vy">
+    </div>
+    <h2>Phương Vy</h2>
+    <p>Sinh viên Đại học UEH</p>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/profile.php?id=100011023590295"> <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-6/395497547_1988902674820500_2481395225560622798_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QgywYWsknSkAX9MngHF&_nc_ht=scontent.fsgn5-11.fna&oh=00_AfDT4Q9PaIp8ZwX1STbeF09qJBGrjJ-izc6XTV5L7ks6Bg&oe=653E8F30" style="width: 20px; height: 20px;" 
+            >Facebook</a>
+        </li>
+        <li>
+            <a href="https://www.tiktok.com/@.vyyp"> <img src="https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/395468735_1988902684820499_1517448348261286672_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hW7SoOykKH8AX94I48j&_nc_ht=scontent.fsgn5-12.fna&oh=00_AfAOc4bU9WGKW-Q7Ldqob7QzM3vV4derLqURgXbmpnTUYg&oe=653F757B" style="width: 20px; height: 20px;"
+            >Tiktok</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/vyph_ng/"> <img src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/395218061_1988902694820498_5252772344703096641_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ksqy8Te6wRYAX_oVK7V&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfAmEeQRsIw8M1KIcMLy00sXpCS7iCT-Q4qPFELV4G8adg&oe=654051A4" style="width: 20px; height: 20px;"
+            >Instagram</a>
+        </li>
+    </ul>
+    <h6>Về UEH</h6>
+    <img src="https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-6/394531483_1988902788153822_3638370994176119538_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=nS3QAox4D5MAX-SJPS4&_nc_ht=scontent.fsgn5-3.fna&oh=00_AfBN5rA7uIzxr4qHwoMjfIp7vxT9vnR_0BQfWnfhGxuk1g&oe=654007CA" style="width:100px; height:100px;" alt="Đại học UEH">
+    <iframe width="100" height="100" src="https://www.youtube.com/embed/anijZSIfVIQ?si=yIDzDchNKiQEto0Y" alt="Tự hào UEH (Remix)" title="Video về UEH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h6>Bản đồ Cơ sở B UEH</h6>
+    <iframe width="200" height="110" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.656949479253!2d106.66538027504168!3d10.760899889386963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fb0ab10d2d3%3A0xa7f67a32f7a18871!2zQ8ahIHPhu58gQiBxdeG6rW4gMTAgLSBOZ3V54buFbiBUcmkgUGjGsMahbmc!5e0!3m2!1svi!2s!4v1698331802623!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+    <button>Contact Me</button>
+    </div>
+</body>
+</html>
